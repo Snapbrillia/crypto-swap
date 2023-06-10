@@ -1,0 +1,16 @@
+# Logs
+logs
+*.log
+
+# Dependency directory
+node_modules
+
+#IDE
+.idea
+
+.DS_Store
+
+.envrc
+
+coverage
+.vercel
