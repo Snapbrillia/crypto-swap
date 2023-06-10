@@ -1,0 +1,16 @@
+.modal__background {
+    padding: 4px;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(43, 43, 55, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.modal__body {
+    width: 100%;
+    max-width: 858px;
+}

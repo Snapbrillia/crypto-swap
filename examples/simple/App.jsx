@@ -1,18 +1,6 @@
-# crypto-swap
-For dev
-```
-   npm install
-   cd examples/simple
-   npm install
-   npm start
-```
+import React, {useEffect} from 'react';
 
-For test from git
-```
-npm install "https://github.com/Snapbrillia/crypto-swap.git#dev" --save
-
-
-import {SnapbrilliaElement, useSnapbrilliaContext} from 'crypto-swap';
+import {SnapbrilliaElement, useSnapbrilliaContext ,Crypto} from '../../src';
 
 const ExchangeForm = () => {
   const {showModal} = useSnapbrilliaContext();
@@ -27,7 +15,7 @@ const ExchangeForm = () => {
 
 const App = () => {
   const settings = {
-    WALLET_CONNECT_PROJECT_ID: 'xxxxxx',
+    WALLET_CONNECT_PROJECT_ID: 'xxxx',
     CHANGE_NOW_API_KEY: 'xxxx'
   }
   return (
@@ -37,4 +25,4 @@ const App = () => {
   );
 };
 
-```
+export default App;
