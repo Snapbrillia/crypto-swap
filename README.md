@@ -1,4 +1,4 @@
-# meta-eth-ada
+# crypto-swap
 For dev
 ```
    npm install
@@ -9,10 +9,10 @@ For dev
 
 For test from git
 ```
-npm install "https://github.com/Snapbrillia/meta-eth-ada.git#dev" --save
+npm install "https://github.com/Snapbrillia/crypto-swap.git#dev" --save
 
 
-import {SnapbrilliaElement, useSnapbrilliaContext} from 'meta-eth-ada';
+import {SnapbrilliaElement, useSnapbrilliaContext} from 'crypto-swap';
 
 const ExchangeForm = () => {
   const {showModal} = useSnapbrilliaContext();

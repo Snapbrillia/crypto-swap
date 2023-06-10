@@ -1,5 +1,5 @@
 {
-  "name": "meta-eth-ada",
+  "name": "crypto-swap",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.cjs.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Snapbrillia/meta-eth-ada.git"
+    "url": "git+https://github.com/Snapbrillia/crypto-swap.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Snapbrillia/meta-eth-ada/issues"
+    "url": "https://github.com/Snapbrillia/crypto-swap/issues"
   },
-  "homepage": "https://github.com/Snapbrillia/meta-eth-ada#readme",
+  "homepage": "https://github.com/Snapbrillia/crypto-swap#readme",
   "devDependencies": {
     "@babel/cli": "^7.21.0",
     "@babel/core": "^7.21.3",
